@@ -3,9 +3,9 @@
 
 <?php
 
- $con=mysqli_connect("localhost","root","","ca_db")or die(mysqli_error($con));
+ //$con=mysqli_connect("localhost","root","","ca_db")or die(mysqli_error($con));
 
-
+ $con=mysqli_connect("localhost","root","kadlag@2023","prashantkadlag_ca_db")or die(mysqli_error($con));
 
  // For production
 
